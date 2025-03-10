@@ -4,7 +4,7 @@ pipeline {
         jdk 'Java17'
         maven 'Maven3'
     }
-    // This step add variables
+    // This step add variables as evnironments
     environment {
 	    APP_NAME = "register-app-pipeline"
             RELEASE = "1.0.0"
